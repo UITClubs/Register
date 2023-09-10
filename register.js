@@ -2,7 +2,7 @@
 
 $(window).on("load",function() {
   $(".loader").fadeOut("4000")
-  if (window.innerWidth <= 1200) {
+  /*if (window.innerWidth <= 1200) {
     // For example, if the screen width is less than or equal to 768px
     // Trigger some specific action for smaller screens
     document.querySelector(".wholeWrapper").style.visibility = "hidden";
@@ -18,7 +18,7 @@ $(window).on("load",function() {
     document.querySelector(".qq").style.visibility = "hidden";
     document.querySelector(".qq").style.display = "none";
     
-  }});
+  }*/});
 
 $(document).ready(function() {
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
     const logos = document.querySelectorAll('.circle img');
     const images = ["./photoss/art.jpg","./photoss/badminton.jpg","./photoss/football.jpg","./photoss/dance.jpg","./photoss/chess.png","./photoss/table_tennis.webp","./photoss/swimming.jpg","./photoss/basketball.jpg"];
     const heading = ["Art club","Badminton club","Football club","Music&Dance club","Chess club","Table-tennis club","Swimming club","Basketball club"];
-    const links = ["./photoss/The Ultimate Gift for Your Soulmate_ Custom Sketches from SoulMate Sketch.jfif","https://i.pinimg.com/564x/ae/5c/33/ae5c33441ef2a2b4ad4586604deb6628.jpg","./photoss/Messi and Ronaldo Football iPhone Wallpaper _ Ronaldo football, Messi and ronaldo, Cristiano ronaldo junior.jfif","./photoss/For the vinyl curious_ Pioneer PL-30-K turntable.jfif","./photoss/d063397a-aa66-444c-aa0f-15c983fa6718.jfif","https://i.pinimg.com/236x/a2/89/cf/a289cf17d12726335b9a3badf9c288e5.jpg","https://i.pinimg.com/236x/88/2a/a4/882aa40a27b566089d6fc8f0d8f2e0ac.jpg","./photoss/9bfb1ed2-3d3d-4db9-97aa-6bbe0930f446.jfif"];
+    const links = ["./photoss/The Ultimate Gift for Your Soulmate_ Custom Sketches from SoulMate Sketch.jfif","./photoss/_Lee Chong Wei - Badminton_ Poster for Sale by RobSpink.jfif","./photoss/Messi and Ronaldo Football iPhone Wallpaper _ Ronaldo football, Messi and ronaldo, Cristiano ronaldo junior.jfif","./photoss/For the vinyl curious_ Pioneer PL-30-K turntable.jfif","./photoss/d063397a-aa66-444c-aa0f-15c983fa6718.jfif","./photoss/_Table Tennis Background_ by Stocksy Contributor _Urs Siedentop & Co_.jfif","./photoss/_Man Jumps Head On Into Swimming Pool_ by Stocksy Contributor _Urs Siedentop & Co_.jfif","./photoss/9bfb1ed2-3d3d-4db9-97aa-6bbe0930f446.jfif"];
     fonts = ["fa-solid fa-palette","fa-solid fa-face-grin-beam-sweat","fa-solid fa-futbol","fa-solid fa-music","fa-solid fa-chess-bishop","fa-solid fa-table-tennis-paddle-ball","fa-solid fa-person-swimming","fa-solid fa-basketball"]
 
     logos.forEach(a => a.addEventListener("mouseover",function(e) {
@@ -380,7 +380,7 @@ $(document).ready(function() {
         
 })
 
-window.addEventListener('resize', function() {
+/*window.addEventListener('resize', function() {
   // Code to run when the screen width is changed
   // You can check the new width using window.innerWidth
   var screenWidth = window.innerWidth;
@@ -403,7 +403,7 @@ window.addEventListener('resize', function() {
     document.querySelector(".qq").style.display = "none";
     
   }
-});
+});*/
 
     
         // Use a library like fetch() or XMLHttpRequest to send the email
@@ -411,6 +411,8 @@ window.addEventListener('resize', function() {
   
   
   });
+  
+  
   
   
   
