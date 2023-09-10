@@ -541,3 +541,17 @@ a:hover {
       transform: rotate(1turn);
     }
   }
+
+ @media screen and (max-width: 1200px) {
+    .wholeWrapper {
+        visibility: hidden;
+
+    }
+    #forTwo {
+        visibility: hidden;
+    }
+    .qq {
+        visibility: visible;
+        display: block;
+    }
+  }
